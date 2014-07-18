@@ -1,0 +1,21 @@
+﻿{% extends "base.html" %}
+
+{% load staticfiles %}
+{% block title %}Accueil{% endblock title %}
+
+{% block extra_css %}
+<style>
+#nav1 {
+background-image: url('{% static "img/new-halo-odst-wallpaper.jpg" %}');
+}
+</style>
+{% endblock %}
+
+
+{% block content %} 
+            <!--div1 (text principal)-->
+		<p><h1><b>stage :</b></h1><br><p>stage informatique EPFL<p><br><b>
+                <h1>autoformation :</b></h1><br><p>apprentissage du python<br>apprentissage du Javascript<br>apprentissage du PHP</p>
+			
+{% endblock content %}
+{% block image_droite %}<img src="../static/img/new-halo-odst-wallpaper-retourne.jpg">{% endblock image_droite %}

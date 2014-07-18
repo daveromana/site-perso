@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+{% block title %}Accueil{% endblock title %}
+
+{% block extra_css %}
+<style>
+#nav1 {
+background-image: url('{% static "img/new-halo-odst-wallpaper-retourne.jpg" %}');
+}
+</style>
+{% endblock %}
+
+
+{% block content %}
+			<h1>Bonjour et bienvenu sur mon site</h1>
+			<p>Ce site s'adresse tout particulièrement à des patrons d'entreprise en lien avec l'informatique.<br><br>Vous trouverez ici tout mon dossier personnel.<br><br> Je vous prie, svp, de me donner <a href="contact" id="lien2"><strong>votre avis</strong></a>, afin que je puisse m'améliorer, merci.<br><br></p>
+{% endblock content %}
+{% block image_droite %}<img src="../static/img/new-halo-odst-wallpaper.jpg">{% endblock image_droite %}

@@ -1,0 +1,257 @@
+/*! project specific CSS goes here. */
+#div1{
+    background-color:black;
+    /*width:1600px;*/
+    margin:auto;
+    color: white;
+    
+        
+}
+header{
+    border-top: 10px solid green;
+    border-bottom: 10px solid green;
+    margin-bottom: 50px;
+    padding: 130px;
+    text-align: center; 
+    font-size: 210%;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+}/*end header*/
+body{
+   background-color:black; 
+    
+}
+footer{
+    border-top: 10px solid green;
+    border-bottom: 10px solid green;
+    margin-top: 50px;
+    padding: 100px;
+    text-align: left;
+    font-size: 120%;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    background-color:black;
+    color:white;
+    
+}
+#twitter{
+    float:right;
+    
+}
+#nav1{ /*premiere colonne*/
+    width:343px;
+    height:665px;
+    float:right;
+    display: block;
+    padding: 5px;
+    
+}
+#nav2{
+    width:343px;
+    height:1330px;
+    float:left;
+    display: block;
+    padding: 5px;
+    
+}
+#nav3{
+    width:343px;
+    height:665px;
+    float:left;
+    display: block;
+    padding: 5px;
+    background-image:url("oopopo.jpg");
+}
+#nav4{
+    width:343px;
+    height:665px;
+    float:left;
+    display: block;
+    padding: 5px;
+    background-image: url("ODST_SniperPainting-rafait.jpg");
+}
+#nav5{
+    width:343px;
+    height:665px;
+    float:left;
+    display: block;
+    padding: 5px;
+    background-image: url("ODST_SniperPainting-rafait.jpg");
+    
+}
+#nav6{
+    width:343px;
+    height:665px;
+    float:left;
+    display: block;
+    padding: 5px;
+    background-image: url("ODST_SniperPainting-rafait.jpg");
+    
+    }
+#nav7{
+    width:343px;
+    height:665px;
+    float:left;
+    display: block;
+    padding: 5px;
+    background-image: url("ODST_SniperPainting-rafait.jpg");
+    
+}
+#nav8{
+    width:343px;
+    height:665px;
+    float:left;
+    display: block;
+    padding: 5px;
+    background-image: url("ODST_SniperPainting-rafait.jpg");
+    
+}
+
+ul {/*liens premiere colonne*/
+    list-style-type: none;
+    text-align: center;
+}
+ul li a{
+    float: left;
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid;
+    border-color: black;
+    font-family: 'Play', sans-serif;
+}
+ul li a:hover{
+    background-color: #12B312;
+    border-color: black;
+}
+a:link {
+    color: black;
+    text-decoration:none;
+}
+a:visited {
+    color: black;
+    text-decoration:none;
+}/*end links first column*/
+#nav-div{/*image droite*/
+    width:343px;
+    height:665px;
+    float:left;
+    background-image:url("new-halo-odst-wallpaper-retourne.jpg"); 
+    padding: 5px;
+    display:block;
+}
+/*#nav-div2{
+    width:343px;
+    height:1330px;
+    float:right;
+    padding: 5px;
+    display:block;
+    background-image:url("e41f93d661d4d0c3e8b701a5f8591953_large.jpeg");
+}
+#nav-div3{
+    width:343px;
+    height:665px;
+    float:right;
+    padding: 5px;
+    display:block;
+    background-image:url("oopopo.jpg");
+}
+#nav-div4{
+    width:343px;
+    height:665px;
+    float:right;
+    padding: 5px;
+    display:block;
+    background-image:url("ODST_SniperPainting-rafait-retourne.jpg");
+}
+#nav-div5{
+    width:343px;
+    height:665px;
+    float:right;
+    padding: 5px;
+    display:block;
+    background-image: url("ODST_SniperPainting-rafait.jpg");
+}
+#nav-div6{
+    width:343px;
+    height:665px;
+    float:right;
+    padding: 5px;
+    display:block;
+    background-image:url("ODST_SniperPainting-rafait-retourne.jpg");
+    
+
+}
+#nav-div7{
+    width:343px;
+    height:665px;
+    float:right;
+    padding: 5px;
+    display:block;
+    background-image:url("ODST_SniperPainting-rafait-retourne.jpg");
+    
+}
+#nav-div8{
+    width:343px;
+    height:665px;
+    float:right;
+    padding: 5px;
+    display:block;
+    background-image:url("ODST_SniperPainting-rafait-retourne.jpg");
+    
+}*/
+
+#autre{
+    clear: both;
+    
+}
+#content{ /*partie principale*/
+    /*float:left;*/
+    text-align:center;
+    margin-left: 150px;
+    font-family: 'Play', sans-serif;
+    font-size:110%;
+    display:block;
+}
+#lien1{
+	color:white;
+}
+#lien2{
+	color:green;
+}
+ol {
+    list-style-type: none;
+    text-align: center;
+    float: left;
+    margin: 0 auto 50px auto;
+}
+ol li a{
+   float: left;
+   width: 150px;
+   height: 40px;
+   background-color: green;
+   text-decoration: none;
+   text-align: center;
+   padding: 5px;
+   border: 2px solid;
+   border-color: black;
+   font-family: 'Play', sans-serif;
+}
+ol li a:hover{
+   background-color: #12B312;
+   border-color: black;
+}
+#bri{
+    width:1600px;
+}
+#ameliorer{
+    width: 500px;
+    height: 100px;
+    
+}
+error{
+	position: relative;
+}

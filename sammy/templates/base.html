@@ -1,0 +1,46 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>{% block title %}titre par defaut{% endblock title %}</title>
+    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{% static "css/sammy.css" %}" />
+    {% block extra_css %}{% endblock extra_css %}
+</head>
+<body>
+    <div id="div1">
+{% block header %}
+		<header><a href="index" id="lien1"> Sammy Lay</a></header> <!--voir fct css a-header-->
+        <nav id="nav1"><!--nav1 (liens/image)-->
+			<ul>
+				<li><a href="index">Accueil</a></li>
+				<li><a href="cv">Qui suis-je ?</a></li>
+				<li><a href="motivation">Mon intérêt pour l'informatique</a></li>
+				<li><a href="examens"> Mes résultats d'examens</a></li>
+				<li><a href="stages"> Mes rapports de stages</a></li>
+				<li><a href="actualite">Mes travaux actuels</a></li>
+				<li><a href="notes"> Mes notes scolaires</a></li>
+				<li><a href="mailto:sa56@hotmail.ch">Envoyez moi un e-mail</a></li>
+				<li><a href="contact">Donnez- moi votre avis</a></li>
+			</ul>
+        </nav>
+{% endblock header %}
+		<div id="nav-div">{% block image_droite %}{% endblock image_droite %}<!--nav-div (image)--></div>
+        <div id="content">
+            <!--text principal-->
+{% block content %}Texte par défaut, sera remplacé lors du extends...{% endblock content %}			
+        </div>
+        <div id="autre"></div>
+    </div>
+    <footer>
+        <p>
+          Suivez-moi sur: <a href="https://twitter.com/tyrog236" target="_blank"><img src="{% static "img/twitter.png" %}"></a>  <a href="http://www.youtube.com/channel/UCdmJ3t-0tL4jUYqg7P2leIQ"  target="_blank"><img src="{% static "img/youtube.png" %}"></a>  <a href="https://www.facebook.com/sammy.lay.37" target="_blank"><img src="{% static "img/facebook.png" %}"></a>
+        </p>
+    </footer>
+    
+    {% block extra_js %}{% endblock extra_js %}
+</body>
+</html>
