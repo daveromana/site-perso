@@ -13,11 +13,25 @@ background-image: url('{% static "img/new-halo-odst-wallpaper.jpg" %}');
 
 
 {% block content %} 
-            <!--div1 (text principal)-->
-			<ol id="exa">
-				<li><a href="multi-check" target="_blank">multi-check TIC</a><br>
-				<li><a href="BRI" target="_blank">examen BRI</a><br>
-			</ol><br><br><br>
+	<table id="table">	
+		<tr>
+			<td id="td">BRI</td>
+			<td id="td">07.05.2014</td>
+			<td id="td"><a href="BRI" target="_blank" id="lien3">Voir</a></td><!--TABLEAU-->
+		</tr>
+		<tr>
+			<td id="td">Multi-check</td>
+			<td id="td">12.04.2014</td>
+			<td id="td"><a href="multi-check" target="_blank" id="lien3">Voir</a></td>
+		</tr>
+
+
+	</table><br><br>	
+<!--div1 (text principal)-->
+			<!--<ol id="exa">
+				<li> <a href="multi-check" target="_blank"> multi-check TIC</a><br>
+				<li> <a href="BRI" target="_blank"> examen BRI</a><br>
+			</ol><br><br><br>-->
                         <p><b>Tests effectues sans preparation ni revision</b></p>
 {% endblock content %}
 {% block image_droite %}<img src="../static/img/new-halo-odst-wallpaper-retourne.jpg">{% endblock image_droite %}

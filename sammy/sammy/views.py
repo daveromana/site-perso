@@ -35,3 +35,9 @@ def contact(request):
         form = ContactForm()
 
     return render(request, 'contact.html', {'form': form, 'toto':3.1415})
+
+
+    from django.shortcuts import render
+ 
+    def handler404(request):
+        return render(request, '404.html')

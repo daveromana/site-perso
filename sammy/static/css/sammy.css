@@ -106,6 +106,26 @@ footer{
     background-image: url("ODST_SniperPainting-rafait.jpg");
     
 }
+.icon {
+    background-image: url('../img/flat-design-social-icon.png');
+    width:76px;
+    height: 76px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icon.twitter{
+    background-position:0 0;
+}
+.icon.facebook{
+    background-position: -80px 0;
+}
+.icon.youtube{
+    background-position: -80px -80px;
+}
+.icon.git{
+    background-position: -160px -160px;
+}
 
 ul {/*liens premiere colonne*/
     list-style-type: none;
@@ -222,6 +242,14 @@ a:visited {
 #lien2{
 	color:green;
 }
+#lien3{
+    color:black;
+    background-color:green;
+
+}
+
+
+
 ol {
     list-style-type: none;
     text-align: center;
@@ -240,7 +268,7 @@ ol li a{
    border-color: black;
    font-family: 'Play', sans-serif;
 }
-ol li a:hover{
+ol li a:hover
    background-color: #12B312;
    border-color: black;
 }
@@ -252,6 +280,15 @@ ol li a:hover{
     height: 100px;
     
 }
-error{
-	position: relative;
+#table{
+    border-collapse: collapse;
+
 }
+#td{
+    border: 3px dashed green; /*crosshair, default, help, move, pointer, progress, text, wait, e-resize, ne-resize, auto... */   
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
